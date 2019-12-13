@@ -1,16 +1,24 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+#subtitle: Why you'd want to go on a date with me
 ---
+I'm a Computer Science undergraduate student at Universidade Federal do Paraná [(UFPR)](https://www.ufpr.br/portalufpr/), currently in my third year. I'm also a proud Member of [CiDAMO](https://cidamo.github.io/)
 
-My name is Inigo Montoya. I have the following qualities:
+## Research, interests and study topics
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Currently, my interests are centered around mathematical Optimization and numerical analysis. Some topics include :
+- Derivative free optimization.
+- Parameter tuning.
+- Non-linear continuous optimization.
+- Numerical methods.
 
-What else do you need?
+## Current projects
+### DerivativeFreeSolvers.jl
+A collection of derivative free solvers implemented in the julia language and compatible with the [JuliaSmoothOptimizers](https://juliasmoothoptimizers.github.io/) API.
+The code is available [here](https://github.com/CiDAMO/DerivativeFreeSolvers.jl).
+### PySolvers
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### JSOTutorials
+Tutorials for the JuliaSmoothOptimizers organization, regarding the use of their packages.
