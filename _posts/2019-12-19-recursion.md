@@ -39,9 +39,9 @@ $$\begin{equation}
 So how does one go about proving it? Proof by induction is probably your best bet. Here's how it works:
 
 * 1) Prove that for the base case $P(0)$, the statement holds.
-* 2) Assume that for $P(n)$ $\in$ $[0..k]$ the statement is true.
+* 2) Assume that for $n$ $\in$ $[0..k]$ the statement $P(n)$ is true.
 * 3) Prove that for $P(k+1)$, the statement holds.
 
-For first-year CS me that was some pretty advanced stuff, but that's because i didn't see the bigger picture back then. The idea is to "induce" all the integers to verify that the statement is in fact true. We start proving that for $n$ $=$ $0$ the statement holds, we call that our base case. Next, by assuming that given an arbitrary interval $[0..k]$ the statement is true and we prove it is also true for $n = k + 1$. Now here's the catch: By proving that $P(0)$ is true, we have then proved that $P(1)$ is also true, by 2) and 3). But wait a minute, that means that $P(2)$ is also true, and that means that $P(3)$ also is, and $P(4)$... The domino effect.
+For first-year CS me that was some pretty advanced stuff, but that's because i didn't see the bigger picture back then. The idea is to "induce" all the integers to verify that the statement is in fact true. We start proving that for $n$ $=$ $0$ the statement holds, we call that our base case. Next, by assuming that given an arbitrary interval $[0..k]$ the statement is true and we prove it is also true for $n = k + 1$. Now here's the catch: By proving that $P(0)$ is true, we have then proved that $P(1)$ is also true, by 2) and 3). But wait a minute, that means that $P(2)$ is also true, and that means that $P(3)$ also is, and $P(4)$... The domino effect. The idea is that each $P(k)$ guarantees that the next $P(k+1)$ is true, hence the name "induction".
 
-The idea is that each $P(k)$ guarantees that the next $P(k+1)$ is true, hence the name "induction".
+## Connecting the dots
