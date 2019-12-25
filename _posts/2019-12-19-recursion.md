@@ -29,12 +29,12 @@ My first thoughts were that it looked much simpler and elegant, and also resembl
 When our professor showed us other examples i was quite intriged by how it worked. To this day, i still feel like recursion is kinda "magical" in the sense that, at first, the code looks confusing and doesn't really do anything, until you actually understand it, and appreaciate its beauty.
 
 Another powerful idea you are going to encounter as a CS student, is the concept of proof by induction, most likely in a algebra course or a discrete mathematics one.
-Basically, when wanting to prove a certain statement for integers, for example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$
+Basically, when wanting to prove a certain statement for integers, for example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$ :
 $$\begin{equation}
   \nonumber
   \sum_{i=1}^{n} i = \frac{n(n + 1)}{2}
 \end{equation}$$ is true.
-So how does one go about proving that this statement is true? Proof by induction is probably your best bet. Here's how it works:
+So how does one go about proving it? Proof by induction is probably your best bet. Here's how it works:
 
 1) Prove that for the base case $k$ $=$ $0$, the statement holds.
 2) Assume that for $n$ $\in$ $[0..k]$ the statement is true.
