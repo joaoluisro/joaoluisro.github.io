@@ -19,6 +19,7 @@ A collection of derivative free solvers implemented in the julia language and co
 The code is available [here](https://github.com/CiDAMO/DerivativeFreeSolvers.jl).
 ### PySolvers
 
+### Bundle Adjustment
 
 ### JSOTutorials
 Tutorials for the JuliaSmoothOptimizers organization, regarding the use of their packages.
