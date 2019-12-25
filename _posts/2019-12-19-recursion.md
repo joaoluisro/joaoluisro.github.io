@@ -31,7 +31,7 @@ When our professor showed us other examples i was quite intriged by how it worke
 
 ## Induction
 Another powerful idea you are going to encounter as a CS student, is the concept of proof by induction, most likely in a algebra course or a discrete mathematics one.
-Basically, when wanting to prove a certain statement for integers, for example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$ :
+Basically, when wanting to prove a certain statement for integers we use it as a very powerful tool. For example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$ :
 $$\begin{equation}
   \nonumber
   \sum_{i=1}^{n} i = \frac{n(n + 1)}{2}
