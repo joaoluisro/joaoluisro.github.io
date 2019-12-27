@@ -7,7 +7,7 @@ I'm a Computer Science undergraduate student at Universidade Federal do Paraná 
 
 ## Research, interests and study topics
 
-Currently, my interests are centered around mathematical Optimization and numerical analysis. Some topics include :
+Currently, my interests are centered around mathematical Optimization and Numerical Analysis. Some topics include :
 - Derivative free optimization.
 - Parameter tuning.
 - Non-linear continuous optimization.

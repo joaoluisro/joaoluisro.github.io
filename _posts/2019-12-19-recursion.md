@@ -31,7 +31,7 @@ When our professor showed us other examples i was quite intriged by how it worke
 
 ## Induction
 Another powerful idea you are going to encounter as a CS student, is the concept of proof by induction, most likely in a algebra course or a discrete mathematics one.
-Basically, when wanting to prove a certain statement for integers we use it as a very powerful tool. For example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$ :
+It is used to prove statements about integers in a very simple way, which makes it a very powerful tool when dealing with them. For example say that you suspect that for every integer $n$ $\geq$ $0$ the statement $P(n)$ :
 $$\begin{equation}
   \nonumber
   \sum_{i=1}^{n} i = \frac{n(n + 1)}{2}
@@ -63,15 +63,10 @@ BinarySearch(x,v,a,b)
   6. else
   7.  return BinarySearch(x, v, m+ 1, b)
 ```
-{% highlight linenos %}
- if a > b
-  return a - 1
- m = (a+b)/2
- if x < v[m]
-  return BinarySearch(x, v, a, m-1)
- else
-  return BinarySearch(x, v, m+ 1, b)
+What it does is to look for a value $x$ in a sorted array $v$ in the interval $[a..b]$. By using a divide-and-conquer strategy, the algorithm first checks whether $a$ and $b$ are in ascending order (1), this is our *base case*. Next, it breaks the problem in two by taking the element in the middle (m) and calling ´´BinarySearch()´´ on the half that contains numbers which are greater than $x$, creating a recursion.
 
-{% endhighlight %}
+How do we make sure that the algorithm works? Simple, just use induction. By taking the three induction steps, we'll finally start to see how these two concepts are actually connected. The proof is not hard, but this post is starting to get long already, so i'll just link it [here](https://www.cs.cornell.edu/courses/cs211/2006sp/Lectures/L06-Induction/binary_search.html).   
 
-What it does is to look for a value $x$ in a sorted array $v$ in the interval $[a..b]$. By using a divide-and-conquer strategy, the algorithm first checks whether $a$ and $b$ are in ascending order (1), this is our *base case*. Next, it breaks the problem in two by taking the element in the middle (m) and calling ´´BinarySearch()´´ on the half that contains numbers which are greater than $x$, creating a recursion.   
+By proving the algorithm is correct, you can start to see similarities between the two concepts. Both have corresponding base-cases, but that's about it right? Well remember the domino effect that our proof had? It's easy to see that when we think about recursion, the same process takes shape, in our example, by assuming that the element is either in the lower or upper part of the array, we know what its exact position is. It's easier if you think about it in terms of induction, by assuming that an instance of size $k+1/2$ is correct we can then prove that a instance of size $k+1$ is also correct. Doing for all integers leads us to the base case, where we know for a fact that the answer is correct. This is the important part of the recursion, the relation between some arbitrary instance $k$ and the next one $k+1$, which is pretty much steps 2) and 3) of induction.
+
+The correctness proof and the execution of a recursive algorithm are strictly connected, meaning that induction and recursion are in the end, the same thing. My final thoughts are that the next time you find yourself asking over how a certain recursive algorithm works, think about it as a black box, or as i mentioned, a statement $P(n)$. Then, apply the induction steps and see what is the relation between a certain instance $P(k)$  and the next one $P(k+1)$, and also what the base case is. After that, you'll have internalized what the recursion is trying to tell you.
