@@ -3,23 +3,13 @@ layout: page
 title: About me
 #subtitle: Why you'd want to go on a date with me
 ---
-I'm a Computer Science undergraduate student at Universidade Federal do Paraná [(UFPR)](https://www.ufpr.br/portalufpr/), currently in my third year. I'm also a proud Member of [CiDAMO](https://cidamo.github.io/).
+I'm a Computer Science undergraduate student at Universidade Federal do Paraná [(UFPR)](https://www.ufpr.br/portalufpr/), currently in my third year.
 
-## Research, interests and study topics
+## Courses in progress - 2020/1
 
-Currently, my interests are centered around mathematical Optimization and Numerical Analysis. Some topics include :
-- Derivative free optimization.
-- Parameter tuning.
-- Non-linear continuous optimization.
-- Numerical methods.
-
-## Current projects
-### DerivativeFreeSolvers.jl
-A collection of derivative free solvers implemented in the julia language and compatible with the [JuliaSmoothOptimizers](https://juliasmoothoptimizers.github.io/) API.
-The code is available [here](https://github.com/CiDAMO/DerivativeFreeSolvers.jl).
-### PySolvers
-
-### Bundle Adjustment
-
-### JSOTutorials
-Tutorials for the JuliaSmoothOptimizers organization, regarding the use of their packages.
+* [CI1394 - Image Processing](https://moodle.c3sl.ufpr.br/course/view.php?id=296)
+* [CI1065 - Algorithms and Graph Theory](http://www.inf.ufpr.br/renato/ci1065/)
+* [CI1058 - Computer Networks I](http://www.inf.ufpr.br/todt/ci1058/index.html)
+* [CI1215 - Operating Systems](http://wiki.inf.ufpr.br/maziero/doku.php?id=so:start)
+* [CI1238 - Optimization](http://www.inf.ufpr.br/andre/Disciplinas/CI1238-INFO7056-2020-1/)
+* CI1162 - Requirements Engineering
