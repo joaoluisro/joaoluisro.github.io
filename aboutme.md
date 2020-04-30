@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-#subtitle: Why you'd want to go on a date with me
 ---
 I'm a Computer Science undergraduate student at Universidade Federal do Paraná [(UFPR)](https://www.ufpr.br/portalufpr/), currently in my third year.
 
@@ -13,3 +12,10 @@ I'm a Computer Science undergraduate student at Universidade Federal do Paraná 
 * [CI1215 - Operating Systems](http://wiki.inf.ufpr.br/maziero/doku.php?id=so:start)
 * [CI1238 - Optimization](http://www.inf.ufpr.br/andre/Disciplinas/CI1238-INFO7056-2020-1/)
 * CI1162 - Requirements Engineering
+
+## Interests
+
+* Computer Vision
+* Data Science & Machine Learning
+* Optimization & Numerical Methods
+* The Julia Programming Language
