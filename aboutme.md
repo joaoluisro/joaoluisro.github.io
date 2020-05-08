@@ -19,3 +19,5 @@ I'm a Computer Science undergraduate student at Universidade Federal do Paraná 
 * Data Science & Machine Learning
 * Optimization & Numerical Methods
 * The Julia Programming Language
+
+[Lattes CV](http://lattes.cnpq.br/1915179836543941)
