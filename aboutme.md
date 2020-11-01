@@ -6,17 +6,17 @@ I'm a Computer Science undergraduate student at Universidade Federal do Paraná 
 
 ## Courses in progress - 2020/1
 
-* [CI1394 - Image Processing](https://moodle.c3sl.ufpr.br/course/view.php?id=296)
-* [CI1065 - Algorithms and Graph Theory](http://www.inf.ufpr.br/renato/ci1065/)
-* [CI1058 - Computer Networks I](http://www.inf.ufpr.br/todt/ci1058/index.html)
-* [CI1215 - Operating Systems](http://wiki.inf.ufpr.br/maziero/doku.php?id=so:start)
-* [CI1238 - Optimization](http://www.inf.ufpr.br/andre/Disciplinas/CI1238-INFO7056-2020-1/)
-* CI1162 - Requirements Engineering
+* [CI1209 - Artificial Intelligence]
+* [CI1218 - Databases]
+* [CI1163 - Software Design]
+* [CI1316 - Parallel Programming]
+* [CI1020 - Mobile Robotics]
 
 ## Interests
 
-* Computer Vision
-* Data Science & Machine Learning
+* Bioinspired Algorithms
+* Complexity, Theoretical CS
+* Vision
 * Optimization & Numerical Methods
 * The Julia Programming Language
 
